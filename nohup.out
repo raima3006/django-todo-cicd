@@ -1,0 +1,132 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 01, 2024 - 12:12:06
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Invalid HTTP_HOST header: '51.21.135.184:8000'. You may need to add '51.21.135.184' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '51.21.135.184:8000'. You may need to add '51.21.135.184' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Aug/2024 12:12:12] "GET / HTTP/1.1" 400 63661
+Invalid HTTP_HOST header: '51.21.135.184:8000'. You may need to add '51.21.135.184' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '51.21.135.184:8000'. You may need to add '51.21.135.184' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[01/Aug/2024 12:12:14] "GET /favicon.ico HTTP/1.1" 400 63496
+/home/ubuntu/project/django-todo/todoApp/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 01, 2024 - 12:13:35
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[01/Aug/2024 12:14:45] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 12:14:46] "GET /todos HTTP/1.1" 301 0
+[01/Aug/2024 12:14:46] "GET /todos/ HTTP/1.1" 200 3515
+[01/Aug/2024 12:14:46] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[01/Aug/2024 12:14:48] "GET /favicon.ico HTTP/1.1" 404 2574
+[01/Aug/2024 12:16:51] "GET /todos/ HTTP/1.1" 200 3515
+[01/Aug/2024 12:16:51] "GET /static/css/style.css HTTP/1.1" 304 0
+[01/Aug/2024 12:17:42] "GET /todos/ HTTP/1.1" 200 3515
+[01/Aug/2024 12:18:17] "GET /todos/ HTTP/1.1" 200 3515
+[01/Aug/2024 12:32:40] "POST /todos/add/ HTTP/1.1" 302 0
+[01/Aug/2024 12:32:41] "GET /todos/ HTTP/1.1" 200 4100
+[01/Aug/2024 12:32:41] "GET /static/css/style.css HTTP/1.1" 304 0
+[01/Aug/2024 12:50:09,327] - Broken pipe from ('199.45.154.123', 33478)
+[01/Aug/2024 12:50:14] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 12:50:20,810] - Broken pipe from ('199.45.154.123', 58174)
+[01/Aug/2024 12:50:24] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 12:50:25] code 505, message Invalid HTTP version (2.0)
+[01/Aug/2024 12:50:25] "PRI * HTTP/2.0" 505 -
+[01/Aug/2024 12:50:29] "GET /todos HTTP/1.1" 301 0
+[01/Aug/2024 12:50:30] code 505, message Invalid HTTP version (2.0)
+[01/Aug/2024 12:50:30] "PRI * HTTP/2.0" 505 -
+[01/Aug/2024 12:50:30] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 12:50:36] "GET /todos/ HTTP/1.1" 200 4100
+Not Found: /favicon.ico
+[01/Aug/2024 12:50:37] "GET /favicon.ico HTTP/1.1" 404 2574
+[01/Aug/2024 12:50:38] code 505, message Invalid HTTP version (2.0)
+[01/Aug/2024 12:50:38] "PRI * HTTP/2.0" 505 -
+[01/Aug/2024 12:50:38] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 12:50:40,720] - Broken pipe from ('199.45.154.123', 34528)
+[01/Aug/2024 12:50:48,986] - Broken pipe from ('199.45.154.123', 40344)
+[01/Aug/2024 18:19:56] code 400, message Bad request version ('À\x13À')
+[01/Aug/2024 18:19:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Aug/2024 18:23:52,234] - Broken pipe from ('163.47.36.33', 60000)
+[01/Aug/2024 19:25:01] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 19:25:01] "GET /todos HTTP/1.1" 301 0
+[01/Aug/2024 19:25:01] "GET /todos/ HTTP/1.1" 200 4100
+[01/Aug/2024 20:40:30] code 400, message Bad request version ('À\x13À')
+[01/Aug/2024 20:40:30] code 400, message Bad request version ('À\x13À')
+[01/Aug/2024 20:40:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Aug/2024 20:40:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Aug/2024 20:40:30] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 20:40:30] code 400, message Bad request version ('À\x13À')
+[01/Aug/2024 20:40:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /robots.txt
+Not Found: /robots.txt
+[01/Aug/2024 20:40:30] "GET /robots.txt HTTP/1.1" 404 2571
+[01/Aug/2024 20:40:30] "GET /robots.txt HTTP/1.1" 404 2571
+[01/Aug/2024 21:48:43] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 21:48:44] code 400, message Bad request version ('À\x13À')
+[01/Aug/2024 21:48:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[01/Aug/2024 21:48:45] code 400, message Bad HTTP/0.9 request type ('t3')
+[01/Aug/2024 21:48:45] "t3 12.1.2" 400 -
+[01/Aug/2024 22:11:24,037] - Broken pipe from ('167.94.145.106', 53276)
+[01/Aug/2024 22:11:27] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 22:11:33,056] - Broken pipe from ('167.94.145.106', 36430)
+[01/Aug/2024 22:11:36] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 22:11:36] code 505, message Invalid HTTP version (2.0)
+[01/Aug/2024 22:11:36] "PRI * HTTP/2.0" 505 -
+[01/Aug/2024 22:11:39] "GET /todos HTTP/1.1" 301 0
+[01/Aug/2024 22:11:39] code 505, message Invalid HTTP version (2.0)
+[01/Aug/2024 22:11:39] "PRI * HTTP/2.0" 505 -
+[01/Aug/2024 22:11:39] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 22:11:42] "GET /todos/ HTTP/1.1" 200 4100
+Not Found: /favicon.ico
+[01/Aug/2024 22:11:42] "GET /favicon.ico HTTP/1.1" 404 2574
+[01/Aug/2024 22:11:42] code 505, message Invalid HTTP version (2.0)
+[01/Aug/2024 22:11:42] "PRI * HTTP/2.0" 505 -
+[01/Aug/2024 22:11:42] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 22:11:49,301] - Broken pipe from ('167.94.145.106', 58408)
+[01/Aug/2024 22:11:52,563] - Broken pipe from ('167.94.145.106', 44916)
+Not Found: /aaa9
+[01/Aug/2024 22:57:32] "GET /aaa9 HTTP/1.1" 404 2553
+Not Found: /aab8
+[01/Aug/2024 22:57:32] "GET /aab8 HTTP/1.1" 404 2553
+[01/Aug/2024 22:57:33] "GET / HTTP/1.1" 302 0
+[01/Aug/2024 22:57:33] code 400, message Bad request version ('À\x14À')
+[01/Aug/2024 22:57:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[02/Aug/2024 01:00:32] "GET / HTTP/1.1" 302 0
+Not Found: /example.com:443
+[02/Aug/2024 05:45:53] "CONNECT example.com:443 HTTP/1.1" 404 1795
